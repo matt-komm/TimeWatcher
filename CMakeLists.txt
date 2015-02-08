@@ -6,3 +6,4 @@ set(CMAKE_INSTALL_PREFIX ${PROJECT_BINARY_DIR}/release)
 
 
 add_executable(test test.cpp)
+target_link_libraries(test pthread)
